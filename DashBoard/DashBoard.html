@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>InTraMS - Dash Board</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- TitleIcon -->
+    <link href="../img/Logos/logo.png" rel="icon">
+    <link href="../img/Logos/logo.png" rel="Traficolus-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+
+    <!-- Libraries CSS Files -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="../lib/toggle/css/bootstrap-toggle.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body id="body">
+
+    <!--==========================
+    Header
+  ============================-->
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="../index.html" class="scrollto">InTra<span>MS</span></a></h1>
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+<!--                    <li class="menu-active"><a href="../index.html">Home</a></li>-->
+                    <li id="dashboardMenu" class="menu-has-children"><a href="./DashBoard.html">DashBoard</a>
+                        <ul>
+                            <li><a href="./DashBoard.html">Profile</a></li>
+                            <li><a href="./Monitor.html">Monitor</a></li>
+                            <li><a href="./DashBoard.html">Permissions</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a id="signOut">
+                            <i class="glyphicon glyphicon-user"></i> SignOut
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+        </div>
+    </header>
+    <!-- #header -->
+
+    <main id="main">
+        <section id="dashBox">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dash Board</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <a href="">
+                            <div class="box wow fadeInLeft clickable" >
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4 class="title">Profile</h4>
+                                <p class="description">View and edit your profile details. </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <a href="Monitor.html">
+                        <div class="box wow fadeInRight clickable" href="Monitor.html">
+                            <div class="icon"><i class="fa fa-laptop"></i></div>
+                            <h4 class="title">Monitor &amp; Control</h4>
+                            <p class="description">Monitor the lanes and control the traffic signals.</p>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <a href="">
+                        <div class="box wow fadeInLeft clickable" data-wow-delay="0.2s">
+                            <div class="icon"><i class="fa fa-shield"></i></div>
+                            <h4 class="title">Permissions</h4>
+                            <p class="description">Grant and deny permissions to the traffic police.</p>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <a href="">
+                        <div class="box wow fadeInRight clickable" data-wow-delay="0.2s">
+                            <div class="icon"><i class="fa fa-male"></i></div>
+                            <h4 class="title">Field Title</h4>
+                            <p class="description">Please add another field in here</p>
+                        </div>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!-- #services -->
+    </main>
+
+    <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>IntraMS</strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/jquery/jquery-migrate.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/superfish/hoverIntent.js"></script>
+    <script src="../lib/superfish/superfish.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/magnific-popup/magnific-popup.min.js"></script>
+    <script src="../lib/sticky/sticky.js"></script>
+    <script src="../lib/toggle/js/bootstrap-toggle.js"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>   =============
+     Google Maps
+    =============-->
+
+    <!-- Template Main Javascript File -->
+    <script src="../js/main.js"></script>
+    
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="../js/Authentication/dashBoardAuth.js"></script>
+
+</body>
+
+</html>
