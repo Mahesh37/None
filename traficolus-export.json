@@ -1,0 +1,147 @@
+{
+  "Balanagar" : {
+    "lane" : {
+      "one" : {
+        "count" : 10,
+        "value" : 1
+      },
+      "two" : {
+        "count" : 15,
+        "value" : 0
+      }
+    },
+    "laneCount" : 2,
+    "mode" : {
+      "auto" : 0,
+      "emergency" : 0,
+      "manual" : 1
+    }
+  },
+  "JNTU" : {
+    "lane" : {
+      "one" : {
+        "count" : 50,
+        "value" : 1
+      },
+      "two" : {
+        "count" : 100,
+        "value" : 0
+      }
+    },
+    "laneCount" : 2,
+    "mode" : {
+      "auto" : 1,
+      "emergency" : 0,
+      "manual" : 0
+    }
+  },
+  "Lbnagar" : {
+    "lane" : {
+      "four" : {
+        "count" : 200,
+        "value" : 1
+      },
+      "one" : {
+        "count" : 155,
+        "value" : 0
+      },
+      "three" : {
+        "count" : 50,
+        "value" : 1
+      },
+      "two" : {
+        "count" : 100,
+        "value" : 1
+      }
+    },
+    "laneCount" : 4,
+    "mode" : {
+      "auto" : 1,
+      "emergency" : 0,
+      "manual" : 0
+    }
+  },
+  "Madhapur" : {
+    "lane" : {
+      "four" : {
+        "count" : 100,
+        "value" : 1
+      },
+      "one" : {
+        "count" : 25,
+        "value" : 1
+      },
+      "three" : {
+        "count" : 75,
+        "value" : 0
+      },
+      "two" : {
+        "count" : 50,
+        "value" : 0
+      }
+    },
+    "laneCount" : 4,
+    "mode" : {
+      "auto" : 0,
+      "emergency" : 0,
+      "manual" : 1
+    }
+  },
+  "Miyapur" : {
+    "lane" : {
+      "one" : {
+        "count" : 102,
+        "value" : 0
+      },
+      "three" : {
+        "count" : 5,
+        "value" : 0
+      },
+      "two" : {
+        "count" : 15,
+        "value" : 1
+      }
+    },
+    "laneCount" : 3,
+    "mode" : {
+      "auto" : 0,
+      "emergency" : 1,
+      "manual" : 0
+    }
+  },
+  "Kukatpally" : {
+    "lane" : {
+      "one" : {
+        "count" : 37,
+        "value" : 1
+      },
+      "three" : {
+        "count" : 25,
+        "value" : 0
+      },
+      "two" : {
+        "count" : 18,
+        "value" : 0
+      }
+    },
+    "laneCount" : 3,
+    "mode" : {
+      "auto" : 1,
+      "emergency" : 0,
+      "manual" : 0
+    }
+  },
+  "users" : {
+    "Arshaque" : {
+      "areas" : 3,
+      "one" : "Lbnagar",
+      "three" : "Miyapur",
+      "two" : "Balanagar"
+    },
+    "Mahesh" : {
+      "areas" : 2,
+      "one" : "JNTU",
+      "two" : "Kukatpally"
+    }
+  }
+}

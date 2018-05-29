@@ -1,0 +1,59 @@
+Controller:
+1. Take outputs from classifier.
+2. Priorities: 			: W : C
+	Heavy vehicles		: 9 : 2
+	Passenger Vehicles	: 5 : 3
+	Bikes				: 2 : 5
+3. Count the weight of each lane.
+4. Lanes get priorities in order, more the weight, more the time.
+5. Time calculation:
+	Sum(No of Vehicles * W)/C
+	
+	Examples:
+	
+		DataSet:
+			Heavy: 10
+			Passenger: 5
+			Bikes: 30
+		Result:
+			((10*9)+(5*5)+(2*30))/(7) = 25 Secs
+		
+		DataSet:
+			Heavy: 22
+			Passenger: 13
+			Bikes: 5
+		Result:
+			((22*9)+(13*5)+(15*2))/2=151 Secs
+			
+		DataSet:
+			Heavy: 2
+			Passenger: 4
+			Bikes: 40
+		Result:
+			((2*9)+(4*5)+(40*2))/5=23 Secs
+			
+		DataSet
+			Heavy: 4
+			Passenger: 21
+			Bikes: 11
+		Result:
+			((4*9)+(21*5)+(11*2))/3 = 54 Secs
+			
+			
+6. Assigning Time to Lanes Based on Clockwise Direction.
+7. But if any Lane doesn't have any vehicles, that Lane will be eliminated.
+8. Emergency Situations:
+	- Pass the lane which has emergency vehicle.
+	- Pass the same lane till it gets passed the traffic signal.
+	- arduiNO HORN passes the message to front vehicles till it reaches the signal receiver.
+		- It helps for long traffic lanes.
+		- This message is not viewed by any vehicle user/driver.
+		- This is activated when the emergency vehicle activates it.(Mostly Enabled)
+		- It calculates the distance between the traffic signal and the emergency vehicle.
+10. It stores the data into database
+	- Video Streaming Backup.
+	- Data related to Monitor log.
+	- Realtime traffic patterns.
+	- Officer control data.
+	- Overriding Emergency patterns.
+11. This Patterns can be used to predict future traffic based on the historic pattern’s.(Mentioned in PDF)

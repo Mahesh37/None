@@ -1,0 +1,5 @@
+006FC4 Heading1 Dark
+85CEFF Heading2 Light
+FFFFFF White
+091930 TextHeading
+333333 Text
